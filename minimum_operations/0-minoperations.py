@@ -34,7 +34,7 @@ def minOperations(n):
     # Iterate through potential factors of n, starting from 2
     for i in range(2, int(math.sqrt(n)) + 1):
         # While n is divisible by i, divide n by i and
-        #increment operations count
+        # increment operations count
         while n % i == 0:
             operations += i 
             n //= i
