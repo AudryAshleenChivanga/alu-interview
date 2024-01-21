@@ -36,7 +36,7 @@ def minOperations(n):
         # While n is divisible by i, divide n by i and
         # increment operations count
         while n % i == 0:
-            operations +=i
+            operations + = i
             n //= i
 
     # If n is a prime number, add it to the operations count
