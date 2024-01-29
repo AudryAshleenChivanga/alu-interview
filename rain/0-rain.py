@@ -3,8 +3,9 @@
 0-rain
 """
 
+
 def rain(walls):
-    # Check if the input list is empty. If so, return 0 as no water can be retained.
+    # Check if the input list is empty
     if not walls:
         return 0
 
